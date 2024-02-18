@@ -1,8 +1,12 @@
 import prompt
-name = ''
 
 
 def welcome_user():
+    global gamer_name
     print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    gamer_name = prompt.string('May I have your name? ')
+    print(f'Hello, {gamer_name}!')
+
+
+if __name__ == '__main__':
+    pass
