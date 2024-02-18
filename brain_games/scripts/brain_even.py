@@ -19,7 +19,7 @@ def is_even():
         
     if answer.lower() == correct_answer.lower():
         print("Correct!")
-        print(f"Congratulations, {cli.gamer_name}")
+        print(f"Congratulations, {cli.gamer_name}!")
     else:
         print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
         print(f"Let's try again, {cli.gamer_name}!")
