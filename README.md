@@ -3,3 +3,4 @@
 
 <a href="https://codeclimate.com/github/anoleynikov/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/bf8343d1444cf50ca378/maintainability" /></a>
 
+<a href="https://asciinema.org/a/uBBCuOJTEGFql6Ux1Ga6WzHN5" target="_blank"><img src="https://asciinema.org/a/uBBCuOJTEGFql6Ux1Ga6WzHN5.svg" /></a>
