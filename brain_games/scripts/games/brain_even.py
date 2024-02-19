@@ -4,7 +4,7 @@ sys.path.append('/home/anton9760/python-projects/python-project-49/brain_games')
 import cli
 
 def main():
-    pass
+    is_even()
 
 
 def is_even():
