@@ -1,4 +1,4 @@
-import prompt
+from prompt import string
 from brain_games.scripts.cli import welcome_user
 
 
@@ -10,7 +10,7 @@ def run_game(game_module):
     while count < 3:
         question, correct_answer = game_module.answer_check()
         print(f"Question: {question}")
-        gamer_answer = prompt.string('Please, enter your answer ')
+        gamer_answer = string('Please, enter your answer ')
         print(f"Your answer: {gamer_answer}")
         if gamer_answer == correct_answer:
             print("Correct!")

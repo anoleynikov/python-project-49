@@ -7,8 +7,8 @@ OPERATOR_LIST = ('+', '-', '*')
 
 
 def answer_check():
-    first_number = randint(0, 100)
-    second_number = randint(0, 100)
+    first_number = randint(0, 10)
+    second_number = randint(0, 10)
     operator = choice(OPERATOR_LIST)
 
     question = f'{first_number} {operator} {second_number}'
