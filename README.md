@@ -14,3 +14,7 @@
 **Brain-calc**:
 
 <a href="https://asciinema.org/a/HdG5647vDdb3DG9c7UIFCRrkH" target="_blank"><img src="https://asciinema.org/a/HdG5647vDdb3DG9c7UIFCRrkH.svg" /></a>
+
+**Brain-GCD**:
+
+<a href="https://asciinema.org/a/LtN1SFMb4U0fI44rukJph9i6R" target="_blank"><img src="https://asciinema.org/a/LtN1SFMb4U0fI44rukJph9i6R.svg" /></a>
