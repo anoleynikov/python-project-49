@@ -12,15 +12,19 @@ def progression_making():
     
     for i in range(last_member):
         if i == hidden_index:
-            progression_list.append('...')
+            progression_list.append('..')
         else:
             progression_list.append(first_member + i * difference)
-    print(f'Последовательность: {progression_list}')
-
+    hidden_number = first_member + hidden_index * difference
+    print(f'Последовательность: {progression_list} \nОтсутствующее число: {hidden_number}')
+    return hidden_index, progression_list
     
 
 
 progression_making()
 
 
-#def answer_check():
+def answer_check():
+    hidden_index, progression_list = progression_making()
+    question =  f'{progression_list}'
+    
