@@ -2,8 +2,6 @@ import prompt
 from brain_games.scripts.cli import welcome_user
 
 
-
-
 def run_game(game_module):
     gamer_name = welcome_user()
     print(game_module.MISSION)
