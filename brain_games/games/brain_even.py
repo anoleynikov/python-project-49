@@ -1,26 +1,36 @@
-import random
-import sys
-sys.path.append('/home/anton9760/python-projects/python-project-49/brain_games')
-import cli
+from random import randint
 
-def main():
-    is_even()
+MISSION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-def is_even():
-    number = random.randint(0, 100)
-    question = number
+def is_even(number):
+    return number % 2 == 0  
     
-    if number % 2 == 0:
-        correct_answer = 'Yes'
-    else:
-        correct_answer = 'No'
+
+def answer_check():
+    question = randint(0, 100)
+    
+    if is_even(question) is True:
+        correct_answer = 'yes'
+    else: 
+        correct_answer = 'no'
         
-    return number, correct_answer, question
-    
-    
-    
-    
-'''def is_even():
+    return question, correct_answer
+
+
+
+
+
+
+
+
+
+
+
+
+#первоначальный вид функции 
+
+
+def is_even_old():
     count = 0   
 
     while count < 3:
@@ -45,9 +55,4 @@ def is_even():
             break
         
         if count == 3:
-            print(f"Congratulations, {cli.gamer_name}!")'''
-
-
-
-if __name__ == '__main__':
-    main()
+            print(f"Congratulations, {cli.gamer_name}!")

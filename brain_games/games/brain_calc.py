@@ -1,7 +1,7 @@
 import random
 import sys
 sys.path.append('/home/anton9760/python-projects/python-project-49/brain_games')
-import cli
+import brain_games.scripts.cli as cli
 
 
 def main():
