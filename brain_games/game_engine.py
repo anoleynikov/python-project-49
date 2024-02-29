@@ -6,7 +6,7 @@ from brain_games.scripts.cli import welcome_user
 
 def run_game(game_module):
     gamer_name = welcome_user()
-
+    print(game_module.MISSION)
     count = 0
          
     while count < 3:
@@ -24,11 +24,3 @@ def run_game(game_module):
         
         if count == 3:
             print(f"Congratulations, {gamer_name}!") 
-
-
-
-    
-   #print("Welcome to the Brain Games!")
-    #gamer_name = prompt.string('May I have your name? ')
-    #print(f'Hello, {gamer_name}!')
-    #print(game_module.MISSION)

@@ -1,34 +1,36 @@
-import random
-import sys
-sys.path.append('/home/anton9760/python-projects/python-project-49/brain_games')
-import brain_games.scripts.cli as cli
+from random import choice, randint
 
 
-def main():
-    calculate()   
+MISSION = 'What is the result of the expression?'
+OPERATOR_LIST = ('+', '-', '*')
 
 
-def calculate():
-    solution = 0
-    operator_list = ['+', '-', '*']
-    first_number = random.randint(0, 100)
-    second_number = random.randint(0, 100)
-    operator = random.choice(operator_list)
-    question = str(first_number) + str(operator) + str(second_number)
 
+def answer_check():
+    first_number = randint(0, 100)
+    second_number = randint(0, 100)
+    operator = choice(OPERATOR_LIST)
+
+    question = f'{first_number} {operator} {second_number}'
+    
     if operator == '+':
         correct_answer = first_number + second_number
-            
-    if operator == '-':
+    elif operator == '-':
         correct_answer = first_number - second_number
-            
-    if operator == '*':
+    else:
         correct_answer = first_number * second_number
-    print("What is the result of the expression?")
+        
+    return question, str(correct_answer)
 
 
 
-'''def calculate():
+
+
+
+
+
+#первоначальная функция
+def calculate_old():
     count = 0
     solution = 0
     operator_list = ['+', '-', '*']
@@ -64,9 +66,4 @@ def calculate():
             break
         
         if count == 3:
-            print(f"Congratulations, {cli.gamer_name}!") '''
-
-
-
-if __name__ == '__main__':
-    main()
+            print(f"Congratulations, {cli.gamer_name}!")
