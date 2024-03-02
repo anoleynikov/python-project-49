@@ -23,6 +23,6 @@ def progression_making():
 
 def answer_check():
     hidden_number, progression_list = progression_making()
-    question = ', '.join(map(str, progression_list))
+    question = ' '.join(map(str, progression_list))
     correct_answer = hidden_number
     return question, str(correct_answer)
