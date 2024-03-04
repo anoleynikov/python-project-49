@@ -1,13 +1,14 @@
 from prompt import string
 from brain_games.scripts.cli import welcome_user
 
+WIN_COUNT = 3
 
 def run_game(game_module):
     gamer_name = welcome_user()
     print(game_module.MISSION)
     count = 0
 
-    while count < 3:
+    while count < WIN_COUNT:
         question, correct_answer = game_module.answer_check()
         print(f"Question: {question}")
         gamer_answer = string('Please, enter your answer ')
