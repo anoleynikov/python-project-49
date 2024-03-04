@@ -3,6 +3,7 @@ from brain_games.scripts.cli import welcome_user
 
 WIN_COUNT = 3
 
+
 def run_game(game_module):
     gamer_name = welcome_user()
     print(game_module.MISSION)
@@ -20,7 +21,5 @@ def run_game(game_module):
             print(f"'{gamer_answer}' is wrong answer ;(."
                   f" Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {gamer_name}!")
-            break
-
-        if count == 3:
-            print(f"Congratulations, {gamer_name}!")
+            return
+        print(f"Congratulations, {gamer_name}!")
