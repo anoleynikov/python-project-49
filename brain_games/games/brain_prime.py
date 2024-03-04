@@ -15,10 +15,5 @@ def is_prime(number):
 
 def answer_check():
     question = randint(0, 100)
-
-    if is_prime(question) is True:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
-
+    correct_answer = "yes" if is_prime(question) is True else 'no'
     return question, correct_answer

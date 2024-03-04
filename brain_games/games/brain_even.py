@@ -9,10 +9,5 @@ def is_even(number):
 
 def answer_check():
     question = randint(1, 100)
-
-    if is_even(question) is True:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
-
+    correct_answer = 'yes' if is_even(question) is True else 'no'
     return question, correct_answer

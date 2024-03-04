@@ -22,4 +22,5 @@ def run_game(game_module):
                   f" Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {gamer_name}!")
             return
-        print(f"Congratulations, {gamer_name}!")
+
+    print(f"Congratulations, {gamer_name}!")
