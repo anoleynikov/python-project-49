@@ -58,22 +58,22 @@ brain-prime
 
 **brain-even**:
 
-<a href="https://asciinema.org/a/uBBCuOJTEGFql6Ux1Ga6WzHN5" target="_blank"><img src="https://asciinema.org/a/uBBCuOJTEGFql6Ux1Ga6WzHN5.svg" /></a>
+<a href="https://asciinema.org/a/uBBCuOJTEGFql6Ux1Ga6WzHN5" target="_blank"><img src="https://asciinema.org/a/uBBCuOJTEGFql6Ux1Ga6WzHN5.svg" width = 1000 height = 200/></a>
 
 **brain-calc**:
 
-<a href="https://asciinema.org/a/HdG5647vDdb3DG9c7UIFCRrkH" target="_blank"><img src="https://asciinema.org/a/HdG5647vDdb3DG9c7UIFCRrkH.svg" /></a>
+<a href="https://asciinema.org/a/HdG5647vDdb3DG9c7UIFCRrkH" target="_blank"><img src="https://asciinema.org/a/HdG5647vDdb3DG9c7UIFCRrkH.svg" width = 1000 height = 200/></a>
 
 **brain-gcd**:
 
-<a href="https://asciinema.org/a/LtN1SFMb4U0fI44rukJph9i6R" target="_blank"><img src="https://asciinema.org/a/LtN1SFMb4U0fI44rukJph9i6R.svg" /></a>
+<a href="https://asciinema.org/a/LtN1SFMb4U0fI44rukJph9i6R" target="_blank"><img src="https://asciinema.org/a/LtN1SFMb4U0fI44rukJph9i6R.svg" width = 1000 height = 200/></a>
 
 **brain-progression**:
 
-<a href="https://asciinema.org/a/55VrUpjpqGqV0buVwhgDM1vjH" target="_blank"><img src="https://asciinema.org/a/55VrUpjpqGqV0buVwhgDM1vjH.svg" /></a>
+<a href="https://asciinema.org/a/55VrUpjpqGqV0buVwhgDM1vjH" target="_blank"><img src="https://asciinema.org/a/55VrUpjpqGqV0buVwhgDM1vjH.svg" width = 1000 height = 200/></a>
 
 **brain-prime**:
 
-<a href="https://asciinema.org/a/H3x6vNthBtUifzxLF0ByLQvg3" target="_blank"><img src="https://asciinema.org/a/H3x6vNthBtUifzxLF0ByLQvg3.svg" /></a>
+<a href="https://asciinema.org/a/H3x6vNthBtUifzxLF0ByLQvg3" target="_blank"><img src="https://asciinema.org/a/H3x6vNthBtUifzxLF0ByLQvg3.svg" width = 1000 height = 200/></a>
 
 ***
